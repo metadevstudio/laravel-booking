@@ -1,0 +1,29 @@
+{
+    "name": "metadevstudio/laravel-booking",
+    "description": "Add Bookings to your Laravel App",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MetaDevStudio\\LaravelBooking\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "\\MetaDevStudio\\LaravelBooking\\BookingServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Meta Dev Studio",
+            "email": "metadevs@metadevstudio.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
